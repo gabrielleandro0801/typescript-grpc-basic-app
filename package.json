@@ -1,0 +1,35 @@
+{
+  "name": "typescript-grpc-basic-app",
+  "version": "1.0.0",
+  "description": "Repository with a basic Typescript gRPC app - a Client and a Server",
+  "main": "index.js",
+  "scripts": {
+    "execute": "ts-node-dev --respawn --transpile-only --ignore-watch node_modules --no-notify $1",
+    "buf:lint": "buf lint --config buf.yaml",
+    "buf:format": "buf format --config buf.yaml -w",
+    "buf:generate": "echo command [buf generate] not working yet",
+    "protoc:generate": "./scripts/protoc.sh",
+    "server": "npm run execute src/server/server.ts",
+    "client": "npm run execute src/client/client.ts",
+    "lint": "prettier --config .prettierrc 'src/**/*.ts' --check",
+    "lint:fix": "prettier --config .prettierrc 'src/**/*.ts' --write --check"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@bufbuild/buf": "1.35.1",
+    "@types/google-protobuf": "3.15.12",
+    "@types/node": "22.1.0",
+    "google-protobuf": "3.21.4",
+    "grpc_tools_node_protoc_ts": "5.3.3",
+    "grpc-tools": "1.12.4",
+    "prettier": "3.3.3",
+    "ts-node-dev": "2.0.0",
+    "typescript": "5.5.4"
+  },
+  "dependencies": {
+    "@grpc/grpc-js": "1.11.1",
+    "grpc-health-check": "^2.0.2"
+  }
+}
