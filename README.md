@@ -26,6 +26,15 @@ npm run server
 npm run client
 ```
 
+### Server
+[image](https://github.com/gabrielleandro0801/typescript-grpc-basic-app/blob/develop/images/server-running.png)
+
+### Client
+[image](https://github.com/gabrielleandro0801/typescript-grpc-basic-app/blob/develop/images/client-running.png)
+
+### Requsting on Postman
+[image](https://github.com/gabrielleandro0801/typescript-grpc-basic-app/blob/develop/images/running-on-postman.png)
+
 ## Acknowledgments
 Basic gRPC API in Typescript tutorials
 - [dev.to - Aria Azadi Pour](https://dev.to/devaddict/use-grpc-with-node-js-and-typescript-3c58)
