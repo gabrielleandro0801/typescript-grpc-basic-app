@@ -1,0 +1,13 @@
+# WORKING, BUT NOT AS EXPECTED AS INTERFACES WERE NOT GENERATED
+version: v2
+plugins:
+ - remote: buf.build/bufbuild/es
+   out: src/proto
+ - remote: buf.build/connectrpc/es
+   out: src/proto
+
+# PLUGINS LINT
+# https://buf.build/plugins
+
+# HOW TO USE PLUGINS
+# https://buf.build/docs/bsr/remote-plugins/usage#4.6.-connect-swift
