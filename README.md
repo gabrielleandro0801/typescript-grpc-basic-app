@@ -27,13 +27,13 @@ npm run client
 ```
 
 ### Server
-[image](https://github.com/gabrielleandro0801/typescript-grpc-basic-app/blob/develop/images/server-running.png)
+![image](https://github.com/gabrielleandro0801/typescript-grpc-basic-app/blob/master/images/server-running.png)
 
 ### Client
-[image](https://github.com/gabrielleandro0801/typescript-grpc-basic-app/blob/develop/images/client-running.png)
+![image](https://github.com/gabrielleandro0801/typescript-grpc-basic-app/blob/master/images/client-running.png)
 
-### Requsting on Postman
-[image](https://github.com/gabrielleandro0801/typescript-grpc-basic-app/blob/develop/images/running-on-postman.png)
+### Requesting on Postman
+![image](https://github.com/gabrielleandro0801/typescript-grpc-basic-app/blob/master/images/running-on-postman.png)
 
 ## Acknowledgments
 Basic gRPC API in Typescript tutorials
@@ -46,5 +46,5 @@ Basic gRPC API in Typescript tutorials
 Comparing REST Status Codes to gRPC Status Codes
 - [dev.to - Milad Roudgarian](https://dev.to/mindwingx/common-status-codes-in-grpc-and-http-38pd)
 
-gRPC for Node
+gRPC for NodeJS
 - [Github - grpc](https://github.com/grpc/grpc-node?tab=readme-ov-file)
